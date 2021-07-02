@@ -1,0 +1,16 @@
+import java.util.*;
+class Bignumber2
+{
+ public static void main(String args[])
+  {
+    int a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p;
+    Scanner sc=new Scanner(System.in);
+   
+  int b1=(int)Math.max(Math.max(a=sc.nextInt();,b=sc.nextInt();),Math.max(c=sc.nextInt();,d=sc.nextInt();));
+  int b2=(int)Math.max(Math.max(e=sc.nextInt();,f=sc.nextInt();),Math.max(g=sc.nextInt();,h=sc.nextInt();));
+  int b3=(int)Math.max(Math.max(i=sc.nextInt();,j=sc.nextInt();),Math.max(k=sc.nextInt();,l=sc.nextInt();));
+  int b4=(int)Math.max(Math.max(m=sc.nextInt();,n=sc.nextInt();),Math.max(o=sc.nextInt();,p=sc.nextInt();));
+System.out.println("biggest number is");
+System.out.println(Math.max(Math.max(b1,b2),Math.max(b3,b4)));
+}
+}
