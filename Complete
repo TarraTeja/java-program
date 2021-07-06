@@ -1,0 +1,21 @@
+class Complete{
+    
+   
+    // Function for finding maximum and value pair
+    public static int multiply (int arr[], int n) 
+    {
+        int t1=0,t2=0;
+        for(int i=0;i<n/2;i++)
+        {
+            t1=t1+arr[i];
+            
+        }
+        for(int i=0;i<n/2;i++)
+        {
+            t2=t1+arr[i];
+        }
+   return t1*t2;
+    }
+    
+    
+}
